@@ -23,8 +23,6 @@ function booksReducer(state = [], action) {
   }
 }
  
-import uuid from "uuid";
- 
 function authorsReducer(state = [], action) {
   let idx;
   switch (action.type) {
