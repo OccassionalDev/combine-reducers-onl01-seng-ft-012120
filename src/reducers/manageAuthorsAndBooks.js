@@ -5,7 +5,9 @@ const rootReducer = combineReducers({
   books: booksReducer
 })
 
-export default function bookApp(
+export default rootReducer
+
+function booksReducer(
   state = {
     authors: [],
     books: []
